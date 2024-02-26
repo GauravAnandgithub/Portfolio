@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoliyo</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4a4793b9da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" width="151px" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="flexx">
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Gaurav Anand</span><br>
+                        <p>and i am a passionate</p>
+                        <span id="element"></span><br>
+                        I'm From India
+                    </h1>
+                </div>
+
+                <div class="bgg">
+                    <img class="bgg" src="bgg.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="man1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>I am passionate about entering the world of websites and contributing towards making a social
+                        impact on your users,
+                        or something like - That's all about me, I wish to utilize my skills, learn and grow together
+                        with your company
+                        and provide top-notch services to your clients.</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            
+                            <li> 
+                                <p><b>Languages:</b></p>
+                                HTML<span>(Advanced)</span>,  CSS<span>(Advanced)</span>,  JavaScript<span>(Advanced)</span>,  C++<span>(Advanced)</span>,  C
+                                Language<span>(Advanced)</span>,  SQL<span>(Intermediate)</span>,  Python<span>(Intermediate</span>,
+                                Data Structures<span>(Advanced)</span>,  MongoDB<span>(Advanced)</span>,  Node.JS<span>(Beginner)</span><br><br>
+<br>
+                                <p><b>Frameworks:</b></p>
+                                React JS<span>(Intermediate)</span>,  Bootstrap<span>(Intermediate)</span>,  RESTful API<span>(Intermediate)</span><br><br>
+<br>
+                                <p><b>Libraries:</b></p>
+                                jQuery<span>(Intermediate)</span>,  Express.js<span>(Intermediate)</span>
+                            
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>First Internship</span> (07/2023 to 08/2023)<br>I'm Successfully completed the
+                                Virtual Internship Program at BHARAT INTERN in <span>Web Development</span> as an active
+                                participant.<br>In this Internship i'm Making Three Websites Such As <span>Portfolio
+                                    Website, Temperature Converter and Netflix Clone</span>.</li>
+                                    <br>
+                            <li><span>Second Internship</span> (07/2023 to 09/2023)<br>I'm Successfully Completed My
+                                Second Internship
+                                Program at OCTANET in Web Development as an Active Participant.<br>
+                                In this Internship i'm Making Three Websites Such As <span>Landing Page, Todo List,
+                                    Toyota Website Clone</span></li>
+                                    <br><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>College</span><br>College
+                                Bharati Vidyapeeth University College Of
+                                Engineering, Pune (2020 - 2024) <br> Pune, 411046
+                            <br>
+                            <span>9.17 CGPA</span>
+                         </li>
+                            <li><span>12th</span><br>British English School Gere Manpur Mufassil,
+                                Gaya
+                                (05/2019 - 05/2020)<br> Gaya, 823001</li>
+                            <li><span>10th</span><br>Shantikunj Public School Court Area,
+                                Jehanabad
+                                (04/2017 - 04/2018)<br> Gaya, 823001</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------services-------------- -->
+    
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-tittle">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Good Practice of Web Design, I Can Provide You a Great Website Page. I'm Impress Your Audience on
+                        Web Page Visitors with a Unique Website Design.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Front-End Developer</h2>
+                    <p> I'm able to Designing the front end of an Application and creating the user interface (UI) and
+                        user experience (UX) to ensure that your Application is visually appealing, user-friendly, and
+                        intuitive.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Developing a great User Experience (UX) and User Interface (UI) for your website or application
+                        for ensuring that users have a positive and intuitive interaction with your
+                        product.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------portfolio-------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="s.p.s.png">
+                    <div class="layer">
+                        <h3>Stone, Paper, Scissor</h3>
+                        <p>Developing a Rock, Paper, Scissors game involves using HTML to structure the elements, CSS for styling, and JavaScript for the game's logic.
+                        HTML creates buttons for each choice, CSS styles the layout for a visually appealing design, and JavaScript manages user clicks,
+                        randomly selects the computer's move, and determines the winner based on the game rules. This combination of HTML, CSS, and JavaScript enables the creation of an interactive and engaging Rock,
+                        Paper, Scissors game on a web page.</p>
+                        <a href="https://gauravstonepaper.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="thamnail of spotify.png">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>Developed a Spotify Clone in Which We Can Play the Music, Stop the Music, Chance the Music
+                            and also Play Privious Music.</p>
+                        <a href="https://gauravspotifyy.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="todo1.png">
+                    <div class="layer">
+                        <h3>Todo List</h3>
+                        <p> Developed a Front End of Todo List. in Which We Can Create Task, Delete Task, Edit Our
+                            Created Task and also we can Set the Timeout.</p>
+                        <a href="https://gauravtodoo.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="c.exchange.png">
+                    <div class="layer">
+                        <h3>Currency Exchange</h3>
+                        <p>In this project we are fetching data from API in JavaScript.
+                            Real-Time Exchange Rates, Responsive Design and User-Friendly Interface.</p>
+                        <a href="https://gauravcexchange.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tic t t.png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>Creating a Tic Tac Toe game involves using HTML for the structure, CSS for styling, and JavaScript for functionality.
+                        HTML sets up the grid, CSS styles the layout, and JavaScript manages the game logic.
+                        Event listeners detect player clicks, alternating between X and O, with JavaScript handling win conditions and updating the display dynamically.
+                        This trio of languages allows for a responsive, interactive Tic Tac Toe game on a web page.</p>
+                        <a href="https://gauravtictac.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="thumnail of toyota.png">
+                    <div class="layer">
+                        <h3>Toyota Website Clone</h3>
+                        <p>Developing a Toyota website clone involves using HTML to structure the content and CSS for styling to replicate the visual appearance.
+                        defines the layout, including headers, navigation menus, and content sections, while CSS is utilized for styling elements such as fonts,
+                        colors, and spacing to mimic the original Toyota website's aesthetic. Note that cloning a website raises ethical and legal considerations,
+                        and it's important to respect intellectual property rights and use such skills for educational purposes only.</p>
+                        <a href="https://gauravtoyotaa.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------------contact--------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="left">
+                        <h1 class="sub-tittle">Contact Me</h1>
+                        <p> <i class="fa-regular fa-share-from-square"></i> gauravanand6g6@gmail.com</p>
+                        <p> <i class="fa-solid fa-phone"></i> 9102271138</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/gaurav-anand-5b91a320a/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <a href="Resume7.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Gaurav Anand</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzX8McwA8Z4lh0JyfRtZH5HzNvQ3TkLwjMzVXrtr3vssVnL7-IK5tbvzPfr5pHuxy8/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Send Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UI/UX Design', 'Front-End Developer', 'Full Stack Developer'],
+            typeSpeed: 40,
+        });
+    </script>
+
+</body>
+
+</html>
